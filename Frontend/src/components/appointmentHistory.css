@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+#appointment-history{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+#appointment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    width:1280px;
+    margin-bottom: 44px;
+    overflow: hidden;
+}
+/* #details{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 30px;
+    height:120px;
+    width:450px;
+    background-color:  rgb(183, 220, 241);
+    border-radius: 10px;
+    line-height: 1.4; 
+} */
+#else-div{
+    display: flex;
+    justify-content: center;
+}
+#no{
+    text-align: center;
+    font-size: larger;
+    color: red;
+    margin-bottom: 30px;
+}
+#book-but{
+    width:160px;
+    height:40px;
+    background-color: #165e98;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+#book-but:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#another-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+}
+#column-doc{
+    height:50px;
+    width:220px;
+    background-color:   rgb(183, 220, 241);;
+    color: #165e98;
+    border-radius: 10px;
+}
+#column-hosp{
+    height:50px;
+    width:280px;
+    background-color:   rgb(183, 220, 241);;
+    color: #165e98;
+    border-radius: 10px;
+}
+#column-fees{
+    height:50px;
+    width:120px;
+    background-color:   rgb(183, 220, 241);;
+    color: #165e98;
+    border-radius: 10px;
+}
+#column-date{
+    height:50px;
+    width:160px;
+    background-color:   rgb(183, 220, 241);;
+    color: #165e98;
+    border-radius: 10px;
+}
+#column-slot{
+    height:50px;
+    width:130px;
+    background-color:   rgb(183, 220, 241);;
+    color: #165e98;
+    border-radius: 10px;
+}
+#styling-para{
+    margin-top: 14px;
+}

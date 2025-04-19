@@ -1,0 +1,39 @@
+#head{
+    text-align: center;
+    margin-top: 60px;
+}
+#quote{
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+    color: #3674a7;
+    width:450px;
+}
+#paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aidbox{
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-bottom: 60px;
+}
+#firstaidBox{
+    height:300px;
+    width:300px;
+    background-color: rgb(226, 241, 254);
+    padding:0;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.5;
+    padding-right: 10px;
+    border: 1px solid #3674a7;
+    box-shadow: 5px 5px 10px rgba(138, 135, 135, 0.3), 
+    -5px -5px 10px rgba(255, 255, 255, 0.5);
+    color: #0f5288;
+}
+#wholeAid{
+    margin-top: 50px;
+}

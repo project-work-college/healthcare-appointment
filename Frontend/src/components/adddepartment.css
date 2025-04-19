@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+/* Page heading */
+#heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #165e98;
+}
+
+/* Main container */
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* Form container */
+#addDep-box {
+    background-color: rgb(232, 234, 235);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* Form title */
+#addDep-box h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #165e98;
+}
+
+/* Input field */
+#add {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Submit button */
+#add-but {
+    background-color: #3674a7;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+#add-but:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+/* Department list container */
+#list-box {
+    background-color: rgb(232, 234, 235);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* List title */
+#list-box h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #165e98;
+}
+
+/* Unordered list styles */
+#dep-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual department items */
+#dep-li {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+    color: #165e98;
+    font-weight: bold;
+}
+
+/* Back button */
+#back-button {
+    position: fixed;
+    top: 80px;
+    left: 15px;
+    border: none;
+    background-color: white;
+    font-size: xx-large;
+    color: #95b7d2;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+#back-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.27);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #form-box, #list-box {
+        width: 90%;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    #back-button {
+        font-size: x-large;
+    }
+}

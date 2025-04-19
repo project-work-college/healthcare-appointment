@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+
+/* Appointment list container */
+#container-existing {
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgb(232, 234, 235);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title inside the list box */
+#container-existing h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #165e98;
+}
+
+/* Unordered list styling */
+#appoint-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual appointment items */
+#appoint-li {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+}
+
+/* Highlighted labels inside the list */
+#appoint-li strong {
+    color: #165e98;
+}
+
+/* Back button styling */
+#back-button {
+    position: fixed;
+    top: 80px;
+    left: 15px;
+    border: none;
+    background-color: white;
+    font-size: xx-large;
+    color: #95b7d2;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+#back-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.27);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #existing {
+        width: 90%;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    #back-button {
+        font-size: x-large;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    margin:0;
+}
+#heropic{
+    height:510px;
+    padding-top: 20px;
+    /* height:260px; */
+    width:min-content;
+    object-fit: cover;
+    margin-left: 0;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color:#3674a7;
+    font-weight: 700;
+    font-size: xx-large;
+    border-bottom: 2.5px solid rgb(202, 231, 248);
+}
+.btn-one,.btn-two{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #3674a7;
+    color: white;
+    margin-right: 25px;
+
+}  
+.btn-one:hover,.btn-two:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+}

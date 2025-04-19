@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+#bookAppmt{
+    text-align: center;
+    margin-top: 50px;
+    color: #165e98;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#doc{
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: #165e98;
+    line-height: 24px;
+}
+#dateSelect,#timeselect{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+#selectedDate{
+    margin-top: 30px;
+    text-align: center;
+    color: #165e98;
+}
+#confirmBut{
+    display:flex ;
+    justify-content: center;
+    margin-top: 50px;
+}
+#confirm{
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    height:40px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #165e98;
+    color: white;
+}

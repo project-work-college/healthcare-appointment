@@ -1,0 +1,38 @@
+#container{
+    height:100%;
+    margin:0;
+    display: flex;
+    justify-content: center; 
+}
+#box{
+    text-align: center;
+    padding-top: 10px;
+    width: 400px;
+    height: 340px;
+    background-color: white;
+  
+}
+.header,#button{
+    margin: 13px;
+}
+#button{
+    border-radius: 10px;
+    width: 100px; 
+    height: 30px;
+    font-size: medium;
+}
+h1{
+    color:#165e98;
+}
+.username,.password{
+    font-size: larger;
+  }
+i{
+    padding-right: 15px;
+    margin-top: 3px;
+    font-size: larger;
+}
+input{
+    height: 30px;
+    width: 190px;
+}

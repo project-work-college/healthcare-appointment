@@ -1,0 +1,13 @@
+GET http://localhost:5000/doctor/checkslots
+
+Content-Type: application/json
+
+{
+    "appointmentDateTime": "2025-03-06T12:00:00.000+00:00",
+    "doctorId": "67c73556be0ae8c10836c254",
+}
+
+
+
+
+

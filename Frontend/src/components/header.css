@@ -1,0 +1,14 @@
+.navbar{
+    margin-top: 30px;
+    text-align: center;
+    
+  }
+  #find{
+    height:120px;
+  }
+  #navhead{
+    margin:0;
+    color:#3674a7;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  
